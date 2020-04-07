@@ -4,12 +4,14 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl"
 import Main from "./Main"
 import { Link } from "react-router-dom"
 
+import "./App.css"
+
 class App extends React.Component {
   render() {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header title="philipsmalls.com" scroll>
+          <Header className="header-color" title="philipsmalls.com" scroll>
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/resume">Resume</Link>
