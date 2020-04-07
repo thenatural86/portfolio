@@ -17,6 +17,31 @@ class LandingPage extends Component {
 
               <hr />
               <p>JavaScript | React | Redux | HTML/CSS | SQLite</p>
+
+              <div className="social-links">
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Github
+                </a>
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Youtube
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
