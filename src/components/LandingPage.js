@@ -16,7 +16,9 @@ class LandingPage extends Component {
               <h1>Full Stack Web Developer</h1>
 
               <hr />
-              <p>JavaScript | React | Redux | HTML/CSS | SQLite</p>
+              <p>
+                JavaScript | React | Redux | Ruby on Rails | HTML/CSS | SQLite
+              </p>
 
               <div className="social-links">
                 <a
@@ -24,7 +26,7 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  LinkedIn
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
 
                 <a
@@ -32,14 +34,14 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Github
+                  <i class="fab fa-github"></i>
                 </a>
                 <a
                   href="http://google.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Youtube
+                  <i class="fab fa-youtube"></i>
                 </a>
               </div>
             </div>
