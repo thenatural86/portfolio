@@ -84,6 +84,27 @@ class Projects extends React.Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "fff",
+                  height: "176px",
+                  background:
+                    "url(https://cdn.dribbble.com/users/200315/screenshots/1196501/vincent1.jpg) center/ cover",
+                }}
+              >
+                React Project #4
+              </CardTitle>
+              <CardText>Im the card text</CardText>
+              <CardActions border>
+                <Button>GitHub</Button>
+                <Button>CodePen</Button>
+                <Button>Live Demo</Button>
+              </CardActions>
+              <CardMenu style={{ color: "fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
           </div>
         )
       case 1:

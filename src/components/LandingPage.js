@@ -43,6 +43,13 @@ class LandingPage extends Component {
                 >
                   <i class="fab fa-youtube"></i>
                 </a>
+                <a
+                  href="https://medium.com/@philip.smalls86"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa-medium"></i>
+                </a>
               </div>
             </div>
           </Cell>
