@@ -22,7 +22,7 @@ class LandingPage extends Component {
 
               <div className="social-links">
                 <a
-                  href="http://google.com"
+                  href="https://www.linkedin.com/in/philip-smalls/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -30,14 +30,14 @@ class LandingPage extends Component {
                 </a>
 
                 <a
-                  href="http://google.com"
+                  href="https://github.com/thenatural86"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i class="fab fa-github"></i>
                 </a>
                 <a
-                  href="http://google.com"
+                  href="https://www.youtube.com/channel/UC16Y3fs7PjLaOdsSGhuW-5g"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

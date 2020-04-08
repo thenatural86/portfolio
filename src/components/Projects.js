@@ -20,27 +20,71 @@ class Projects extends React.Component {
     switch (this.state.activeTab) {
       case 0:
         return (
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.dribbble.com/users/200315/screenshots/1196501/vincent1.jpg) center/ cover",
-              }}
-            >
-              React Project #1
-            </CardTitle>
-            <CardText>Im the card text</CardText>
-            <CardActions border>
-              <Button>GitHub</Button>
-              <Button>CodePen</Button>
-              <Button>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+          <div className="projects-grid">
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "fff",
+                  height: "176px",
+                  background:
+                    "url(https://cdn.dribbble.com/users/200315/screenshots/1196501/vincent1.jpg) center/ cover",
+                }}
+              >
+                React Project #1
+              </CardTitle>
+              <CardText>Im the card text</CardText>
+              <CardActions border>
+                <Button>GitHub</Button>
+                <Button>CodePen</Button>
+                <Button>Live Demo</Button>
+              </CardActions>
+              <CardMenu style={{ color: "fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "fff",
+                  height: "176px",
+                  background:
+                    "url(https://cdn.dribbble.com/users/200315/screenshots/1196501/vincent1.jpg) center/ cover",
+                }}
+              >
+                React Project #2
+              </CardTitle>
+              <CardText>Im the card text</CardText>
+              <CardActions border>
+                <Button>GitHub</Button>
+                <Button>CodePen</Button>
+                <Button>Live Demo</Button>
+              </CardActions>
+              <CardMenu style={{ color: "fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "fff",
+                  height: "176px",
+                  background:
+                    "url(https://cdn.dribbble.com/users/200315/screenshots/1196501/vincent1.jpg) center/ cover",
+                }}
+              >
+                React Project #3
+              </CardTitle>
+              <CardText>Im the card text</CardText>
+              <CardActions border>
+                <Button>GitHub</Button>
+                <Button>CodePen</Button>
+                <Button>Live Demo</Button>
+              </CardActions>
+              <CardMenu style={{ color: "fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
         )
       case 1:
         return (
@@ -78,13 +122,11 @@ class Projects extends React.Component {
           <Tab>Ruby On Rails</Tab>
           <Tab>JavaScript</Tab>
         </Tabs>
-        <section className="projects-grid">
-          <Grid className="projects-grid">
-            <Cell col={12}>
-              <div className="content">{this.TabToggle()}</div>
-            </Cell>
-          </Grid>
-        </section>
+        <Grid>
+          <Cell col={12}>
+            <div className="content">{this.TabToggle()}</div>
+          </Cell>
+        </Grid>
       </div>
     )
   }
