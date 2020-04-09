@@ -6,7 +6,7 @@ class Resume extends Component {
     return (
       <div>
         <Grid>
-          <Cell col={4}>
+          <Cell className="resume-left-col" col={4}>
             <div style={{ textAlign: "center" }}>
               <img
                 src="https://i.ya-webdesign.com/images/chucky-lightning-bolt-png-7.png"
@@ -31,9 +31,7 @@ class Resume extends Component {
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
-          <Cell className="resume-right-col" col={8}>
-            Right Side
-          </Cell>
+          <Cell className="resume-right-col" col={8}></Cell>
         </Grid>
       </div>
     )

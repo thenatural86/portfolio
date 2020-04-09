@@ -1,23 +1,47 @@
 import React, { Component } from "react"
-import { Grid, Cell } from "react-mdl"
+import { Grid, Cell, FABButton, Icon } from "react-mdl"
+import { Link } from "react-router-dom"
 
 class LandingPage extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          <Cell col={12}>
+          <Cell className="image-container" col={6}>
             <img
-              src="https://us.123rf.com/450wm/moremar/moremar1706/moremar170600011/81168217-stock-vector-portrait-of-an-african-man-the-face-of-a-guy-avatar-for-the-internet-vector-illustration.jpg?ver=6"
+              src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/92849555_10156672183300981_4992975803168849920_n.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=4i_UsFCwLcgAX-Mi2Lg&_nc_ht=scontent-lga3-1.xx&oh=5d7cc990ac7f6ed7044ceeb5ca61d98e&oe=5EB69FA7"
               alt="avatar"
               className="avatar-image"
             />
-            <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
-
+          </Cell>
+          <Cell className="banner-text" col={6}>
+            <div>
+              <h1>Hello there,</h1>
+              <h3>My name is Philip and I'm a Web Developer</h3>
+              <p>
+                Besides coding, I enjoy cooking, playing the guitar and being in
+                nature. That's a picture of me and my Grams, she's the best. I
+                also enjoy getting together with friends and making{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=-TelTxk8Twc"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  short films
+                </a>{" "}
+                and
+                <a
+                  href="https://www.youtube.com/watch?v=T64uPGd_sAE"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {" "}
+                  the like.
+                </a>
+              </p>
               <hr />
               <p>
-                JavaScript | React | Redux | Ruby on Rails | HTML/CSS | SQLite
+                React | Redux | JavaScript | Ruby on Rails | HTML/CSS | SQLite
               </p>
 
               <div className="social-links">

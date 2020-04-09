@@ -26,40 +26,67 @@
   height: 100%;
 }
 
+.image-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12em;
+  padding-bottom: 15em;
+}
+
 .avatar-image {
-  height: 250px;
-  margin-top: 5em;
-  border-radius: 130px;
+  height: 350px;
+  margin-top: 10em;
+  border-radius: 40px;
+
 }
 
 .banner-text {
-  background-color: black;
+  /* border: 2px solid purple; */
+  /* background-color: black; */
   opacity: .7;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 6em;
 }
 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white;
+  /* color: white; */
 }
 
+.banner-text h3 {
+  /* color: white; */
+}
+
+
+
 .banner-text hr {
-  border-top: 5px dotted whitesmoke;
+  border-top: 5px dotted #C65A85;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: white;
+  /* color: white; */
   font-size: 20px;
   padding: 1em;
 }
 
+.banner-text a {
+  color: #C65A85;
+  text-decoration: none;
+}
+
 .social-links {
-  color: white;
+  /* color: white; */
   display: flex;
   justify-content: space-around;
   width: 50%;
@@ -67,16 +94,33 @@
 }
 
 .social-links i {
-  color: white;
+  /* color: white; */
   font-size: 5em;
   padding: 8px;
 }
 
 /* resume page css */
+.resume-right-col {
+  background-color: #22271f;
+  color: white
+}
 
 /* projects page css */
 .projects-grid {
   display: flex;
+}
+
+/* about me page css */
+.about-me-col-left {
+  background-color: hotpink;
+}
+
+.about-me-col-center {
+  background-color: honeydew
+}
+
+.about-me-col-right {
+  background-color: thistle;
 }
 
 /* contact page css */
