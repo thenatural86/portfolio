@@ -1,6 +1,5 @@
 import React, { Component } from "react"
-import { Grid, Cell, FABButton, Icon } from "react-mdl"
-import { Link } from "react-router-dom"
+import { Grid, Cell } from "react-mdl"
 
 class LandingPage extends Component {
   render() {

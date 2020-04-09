@@ -27,14 +27,13 @@ class App extends React.Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          {/* <Drawer title="philipsmalls.com">
+          <Drawer title="philipsmalls.com">
             <Navigation>
-              <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
-          </Drawer> */}
+          </Drawer>
           <Content>
             <div className="page-content" />
             <Main />

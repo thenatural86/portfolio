@@ -108,7 +108,12 @@
 /* projects page css */
 .projects-grid {
   display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  color: aquamarine;
 }
+
+
 
 /* about me page css */
 .about-me-col-left {
