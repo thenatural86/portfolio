@@ -10,7 +10,12 @@ class App extends React.Component {
   renderTitle = () => {
     return (
       <Link to="/" style={{ color: "white", textDecoration: "none" }}>
-        Philip Smalls
+        Philip Smalls{"  "}
+        <img
+          src="https://i.ya-webdesign.com/images/chucky-lightning-bolt-png-7.png"
+          alt="lightning"
+          style={{ height: "20px" }}
+        />
       </Link>
     )
   }

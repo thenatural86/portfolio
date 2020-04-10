@@ -1,31 +1,43 @@
 import React from "react"
-import {
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton,
-} from "react-mdl"
+import { Grid, Cell, Card, CardTitle, CardText, CardActions } from "react-mdl"
 
 class Projects extends React.Component {
   renderCards = () => {
     return (
       <div className="projects-grid">
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+        <Card
+          shadow={5}
+          style={{
+            border: "2px solid black",
+            minWidth: "450",
+            margin: "auto",
+          }}
+        >
           <CardTitle
+            className="card-body"
             style={{
-              color: "fff",
-              height: "176px",
               background:
                 "url(https://user-images.githubusercontent.com/44248618/77825990-13c84300-70e3-11ea-9e2f-03ceaa0ad2b5.png) center/ cover",
             }}
           ></CardTitle>
-          <CardText>My Stream</CardText>
-          <CardActions border>
+          <CardText
+            style={{
+              fontWeight: "bold",
+              color: "black",
+              display: "flex",
+              justifyContent: "center",
+              backgroundColor: "#B2FEFA",
+            }}
+          >
+            My Stream
+          </CardText>
+          <CardActions
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+            }}
+            border
+          >
             <a
               href="https://github.com/thenatural86/streams-client"
               alt="github"
@@ -45,15 +57,30 @@ class Projects extends React.Component {
 
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle
+            className="card-body"
             style={{
-              color: "fff",
-              height: "176px",
               background:
                 "url(https://user-images.githubusercontent.com/44248618/69985181-b6433180-1508-11ea-81b1-7c2c57a7e328.png) center/ cover",
             }}
           ></CardTitle>
-          <CardText>MarveLess</CardText>
-          <CardActions border>
+          <CardText
+            style={{
+              fontWeight: "bold",
+              color: "black",
+              display: "flex",
+              justifyContent: "center",
+              backgroundColor: "#B2FEFA",
+            }}
+          >
+            MarveLess
+          </CardText>
+          <CardActions
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+            }}
+            border
+          >
             <a
               href="https://github.com/thenatural86/marveless-frontend"
               alt="github"
@@ -70,16 +97,33 @@ class Projects extends React.Component {
             </a>
           </CardActions>
         </Card>
+
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle
+            className="card-body"
             style={{
-              height: "176px",
               background:
                 "url(https://user-images.githubusercontent.com/47828048/67108339-4d903780-f19c-11e9-9842-930c2910fd1d.png) center/ cover",
             }}
           ></CardTitle>
-          <CardText>PotterLess</CardText>
-          <CardActions border>
+          <CardText
+            style={{
+              fontWeight: "bold",
+              color: "black",
+              display: "flex",
+              justifyContent: "center",
+              backgroundColor: "#B2FEFA",
+            }}
+          >
+            PotterLess
+          </CardText>
+          <CardActions
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+            }}
+            border
+          >
             <a
               href="https://github.com/thenatural86/Mod2PotterlessProject"
               alt="github"
@@ -96,17 +140,33 @@ class Projects extends React.Component {
             </a>
           </CardActions>
         </Card>
+
         <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
           <CardTitle
+            className="card-body"
             style={{
-              color: "fff",
-              height: "176px",
               background:
                 "url(https://cdn.dribbble.com/users/200315/screenshots/1196501/vincent1.jpg) center/ cover",
             }}
           ></CardTitle>
-          <CardText>Coming Soon ... Black Lightning 50/50 </CardText>
-          <CardActions border>
+          <CardText
+            style={{
+              fontWeight: "bold",
+              color: "black",
+              display: "flex",
+              justifyContent: "center",
+              backgroundColor: "#B2FEFA",
+            }}
+          >
+            Coming Soon ... Black Lightning 50/50{" "}
+          </CardText>
+          <CardActions
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+            }}
+            border
+          >
             <a
               href="https://github.com/thenatural86"
               alt="github"
@@ -129,12 +189,18 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div style={{ color: "red" }} className="category-tabs">
-        <Grid>
-          <Cell col={12}>
-            <div style={{ color: "red" }} className="content">
-              {this.renderCards()}
-            </div>
+      <div className="content-grid">
+        <Grid
+          style={{
+            height: "50em",
+            backgroundColor: "#f1f4f4",
+            display: "flex",
+            flexFlow: "wrap",
+            justifyContent: "space-around",
+          }}
+        >
+          <Cell col={8}>
+            <div className="content">{this.renderCards()}</div>
           </Cell>
         </Grid>
       </div>

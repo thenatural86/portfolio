@@ -35,8 +35,9 @@ class LandingPage extends Component {
                   target="_blank"
                 >
                   {" "}
-                  the like.
+                  the like.{" "}
                 </a>
+                Please check out my website and say hello!
               </p>
               <hr />
               <p>

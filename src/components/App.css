@@ -100,9 +100,41 @@
 }
 
 /* resume page css */
-.resume-right-col {
-  background-color: #22271f;
-  color: white
+.resume-col-bottom-left {
+  background-color: darkseagreen;
+  color: white;
+  height: 50em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.resume-col-bottom-left-header {
+  width: 100%;
+  text-align: center;
+  /* background-color: darkturquoise; */
+  margin-bottom: -10em;
+  /* padding-bottom: -100px; */
+}
+
+.resume-col-bottom-left-skills {
+  background-color: floralwhite;
+  color: black;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  width: 40%;
+  margin: 1em;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.resume-col-bottom-right {
+  background-color: burlywood;
+  color: white;
+  height: 50em;
 }
 
 /* projects page css */
@@ -110,7 +142,16 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
+  /* background-color: aquamarine; */
+  height: 50em;
+}
+
+.contact-grid {
   color: aquamarine;
+}
+
+.card-body {
+  height: 176px;
 }
 
 
