@@ -100,41 +100,58 @@
 }
 
 /* resume page css */
-.resume-col-bottom-left {
-  background-color: darkseagreen;
-  color: white;
-  height: 50em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
+.resume-grid {
+  background-image: url("https://cdn-media-1.freecodecamp.org/images/1*zVDcaM6mqhi9m0LP_Sq4Ag.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.resume-col-bottom-left-header {
+.resume-col-bottom-left {
+  color: white;
+  /* height: 50em; */
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  /* background-color: lightpink; */
+}
+
+.resume-col-bottom-left-header,
+.resume-col-bottom-right-header {
   width: 100%;
   text-align: center;
-  /* background-color: darkturquoise; */
-  margin-bottom: -10em;
-  /* padding-bottom: -100px; */
+  margin-top: -2em;
 }
 
 .resume-col-bottom-left-skills {
-  background-color: floralwhite;
+  background-color: rgba(255, 250, 240, 0.404);
   color: black;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
-  width: 40%;
+  /* width: 40%; */
   margin: 1em;
   text-align: center;
   border-radius: 15px;
+  justify-content: space-around;
+  /* margin-bottom: 10em; */
+  /* height: 200px; */
+  /* margin-left: 10em; */
 }
 
 .resume-col-bottom-right {
-  background-color: burlywood;
   color: white;
   height: 50em;
+}
+
+.resume-col-bottom-right-experience {
+  background-color: rgba(255, 250, 240, 0.404);
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
 }
 
 /* projects page css */
@@ -154,20 +171,6 @@
   height: 176px;
 }
 
-
-
-/* about me page css */
-.about-me-col-left {
-  background-color: hotpink;
-}
-
-.about-me-col-center {
-  background-color: honeydew
-}
-
-.about-me-col-right {
-  background-color: thistle;
-}
 
 /* contact page css */
 .contact-body {
