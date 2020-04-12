@@ -6,53 +6,23 @@ class Contact extends Component {
     return (
       <div className="contact-body">
         <Grid className="contact-grid">
-          <Cell col={6}>
-            <h2>Philip Smalls</h2>
+          <Cell col={12}>
+            <h2>Contact Me</h2>{" "}
             <img
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQHdyi5p85Tx1g/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=ZdOMGXHFiJc9AK1BVn0bxSEnutkAEI0Vdd7FZE-Pwzs"
+              className="contact-image"
+              src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/92849555_10156672183300981_4992975803168849920_n.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=4i_UsFCwLcgAX-Mi2Lg&_nc_ht=scontent-lga3-1.xx&oh=5d7cc990ac7f6ed7044ceeb5ca61d98e&oe=5EB69FA7"
               alt="me"
-              style={{ height: "250px" }}
+              style={{ borderRadius: "15px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.{" "}
-            </p>
           </Cell>
-
-          <Cell col={6}>
-            <h2>Contact Me</h2>
+          <Cell col={12}>
             <hr />
             <div className="contact-list">
-              <List>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i class="fas fa-phone-square" aria-hidden="true" />
-                    (203) 247-8779
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i class="fas fa-envelope-open-text"></i>
-                    philip.smalls86@gmail.com
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i class="fas fa-phone-square" aria-hidden="true" />
-                    (203) 247-8779
-                  </ListItemContent>
-                </ListItem>
-              </List>
+              <button>Email</button>
+              <button>Linkin</button>
+              <button>Facebook</button>
+              <button>Gitbhub</button>
+              <button>Twitter</button>
             </div>
           </Cell>
         </Grid>

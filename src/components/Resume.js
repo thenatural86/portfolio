@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import { Grid, Cell } from "react-mdl"
-import { pic } from "./images/react.png"
 
 class Resume extends Component {
   render() {
@@ -9,7 +8,7 @@ class Resume extends Component {
         <Grid className="resume-grid">
           <Cell className="resume-col-bottom-left" col={6}>
             <div
-              style={{ marginBottom: "2em" }}
+              style={{ marginBottom: "1em" }}
               className="resume-col-bottom-left-header"
             >
               <h3>Tech Skills</h3>
@@ -37,31 +36,29 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-col-bottom-right" col={6}>
             <div className="resume-col-bottom-right-header">
-              <h2>Experience</h2>
+              <h3>Experience</h3>
             </div>
             <div className="resume-col-bottom-right-experience">
               <h5>Flatiron School</h5>
-              <p>Fullstack Software Engineer Graduate</p>
-              <p>
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-              </p>
+              <p>Fullstack Software Engineer Graduate, 2019</p>
+              <li></li>
+              <li></li>
+              <li></li>
               <h5>Adorama Rental Company</h5>
               <p>Quality Assurance Specialist, 06/2015 - 06/2019 </p>
               <p>
                 <li>
                   Successfully maintained 96%+ resolution rate for all client
-                  issues, consistently meeting and exceeding bi-weekly KPI
-                  targets.
+                  issues
                 </li>
-                <br />
+                <li>Consistently met and exceeded bi-weekly KPI targets.</li>
                 <li>
                   Problem solved by effectively troubleshooting equipment
-                  malfunctions and/or improper operation and maintained
-                  equipment failure records and inter department communication
-                  utilizing the Jira ticket system.
+                  malfunctions
+                </li>
+                <li>
+                  maintained equipment records and inter department
+                  communication via Jira software
                 </li>
               </p>
               <h5>National Geographic (StarTalk, Seasons 1 & 2)</h5>
@@ -71,11 +68,7 @@ class Resume extends Component {
                   Setup and breakdown of audio department for national televised
                   science/education talk show.
                 </li>
-                <li>
-                  Handled on set and on air audio troubleshooting such as faulty
-                  microphone, malfunctioning earpiece or unresponsive recording
-                  device.
-                </li>
+                <li>Handled on location audio troubleshooting</li>
               </p>
             </div>
           </Cell>

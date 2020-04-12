@@ -8,18 +8,11 @@ class Projects extends React.Component {
         <Card
           shadow={5}
           style={{
-            border: "2px solid black",
             minWidth: "450",
             margin: "auto",
+            borderRadius: "15px",
           }}
         >
-          <CardTitle
-            className="card-body"
-            style={{
-              background:
-                "url(https://user-images.githubusercontent.com/44248618/77825990-13c84300-70e3-11ea-9e2f-03ceaa0ad2b5.png) center/ cover",
-            }}
-          ></CardTitle>
           <CardText
             style={{
               fontWeight: "bold",
@@ -31,6 +24,14 @@ class Projects extends React.Component {
           >
             My Stream
           </CardText>
+          <CardTitle
+            className="card-body"
+            style={{
+              margin: "10px",
+              background:
+                "url(https://user-images.githubusercontent.com/44248618/77825990-13c84300-70e3-11ea-9e2f-03ceaa0ad2b5.png) center/ cover",
+            }}
+          ></CardTitle>
           <CardActions
             style={{
               display: "flex",
@@ -55,14 +56,10 @@ class Projects extends React.Component {
           </CardActions>
         </Card>
 
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-          <CardTitle
-            className="card-body"
-            style={{
-              background:
-                "url(https://user-images.githubusercontent.com/44248618/69985181-b6433180-1508-11ea-81b1-7c2c57a7e328.png) center/ cover",
-            }}
-          ></CardTitle>
+        <Card
+          shadow={5}
+          style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
+        >
           <CardText
             style={{
               fontWeight: "bold",
@@ -74,6 +71,14 @@ class Projects extends React.Component {
           >
             MarveLess
           </CardText>
+          <CardTitle
+            className="card-body"
+            style={{
+              margin: "10px",
+              background:
+                "url(https://user-images.githubusercontent.com/44248618/69985181-b6433180-1508-11ea-81b1-7c2c57a7e328.png) center/ cover",
+            }}
+          ></CardTitle>
           <CardActions
             style={{
               display: "flex",
@@ -98,14 +103,10 @@ class Projects extends React.Component {
           </CardActions>
         </Card>
 
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-          <CardTitle
-            className="card-body"
-            style={{
-              background:
-                "url(https://user-images.githubusercontent.com/47828048/67108339-4d903780-f19c-11e9-9842-930c2910fd1d.png) center/ cover",
-            }}
-          ></CardTitle>
+        <Card
+          shadow={5}
+          style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
+        >
           <CardText
             style={{
               fontWeight: "bold",
@@ -117,6 +118,14 @@ class Projects extends React.Component {
           >
             PotterLess
           </CardText>
+          <CardTitle
+            className="card-body"
+            style={{
+              margin: "10px",
+              background:
+                "url(https://user-images.githubusercontent.com/47828048/67108339-4d903780-f19c-11e9-9842-930c2910fd1d.png) center/ cover",
+            }}
+          ></CardTitle>
           <CardActions
             style={{
               display: "flex",
@@ -141,14 +150,10 @@ class Projects extends React.Component {
           </CardActions>
         </Card>
 
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-          <CardTitle
-            className="card-body"
-            style={{
-              background:
-                "url(https://cdn.dribbble.com/users/200315/screenshots/1196501/vincent1.jpg) center/ cover",
-            }}
-          ></CardTitle>
+        <Card
+          shadow={5}
+          style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
+        >
           <CardText
             style={{
               fontWeight: "bold",
@@ -160,6 +165,14 @@ class Projects extends React.Component {
           >
             Coming Soon ... Black Lightning 50/50{" "}
           </CardText>
+          <CardTitle
+            className="card-body"
+            style={{
+              margin: "10px",
+              background:
+                "url(https://cdn.dribbble.com/users/200315/screenshots/1196501/vincent1.jpg) center/ cover",
+            }}
+          ></CardTitle>
           <CardActions
             style={{
               display: "flex",
@@ -190,15 +203,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div className="content-grid">
-        <Grid
-          style={{
-            height: "50em",
-            backgroundColor: "#f1f4f4",
-            display: "flex",
-            flexFlow: "wrap",
-            justifyContent: "space-around",
-          }}
-        >
+        <Grid className="project-grid-style">
           <Cell col={8}>
             <div className="content">{this.renderCards()}</div>
           </Cell>
