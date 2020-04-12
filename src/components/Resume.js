@@ -41,9 +41,15 @@ class Resume extends Component {
             <div className="resume-col-bottom-right-experience">
               <h5>Flatiron School</h5>
               <p>Fullstack Software Engineer Graduate, 2019</p>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>
+                Attained proficiency and understanding of Fullstack technologies
+                through education and implementation.
+              </li>
+              <li>
+                Application of Agile Methodology through pair programming and
+                building web applications end to end.
+              </li>
+              <li>Gained Computer Science fundamentals.</li>
               <h5>Adorama Rental Company</h5>
               <p>Quality Assurance Specialist, 06/2015 - 06/2019 </p>
               <p>

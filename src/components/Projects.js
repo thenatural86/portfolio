@@ -14,12 +14,12 @@ class Projects extends React.Component {
           }}
         >
           <CardText
+            className="card-text"
             style={{
               fontWeight: "bold",
               color: "black",
               display: "flex",
               justifyContent: "center",
-              backgroundColor: "#B2FEFA",
             }}
           >
             My Stream
@@ -61,12 +61,12 @@ class Projects extends React.Component {
           style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
         >
           <CardText
+            className="card-text"
             style={{
               fontWeight: "bold",
               color: "black",
               display: "flex",
               justifyContent: "center",
-              backgroundColor: "#B2FEFA",
             }}
           >
             MarveLess
@@ -108,12 +108,12 @@ class Projects extends React.Component {
           style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
         >
           <CardText
+            className="card-text"
             style={{
               fontWeight: "bold",
               color: "black",
               display: "flex",
               justifyContent: "center",
-              backgroundColor: "#B2FEFA",
             }}
           >
             PotterLess
@@ -155,12 +155,12 @@ class Projects extends React.Component {
           style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
         >
           <CardText
+            className="card-text"
             style={{
               fontWeight: "bold",
               color: "black",
               display: "flex",
               justifyContent: "center",
-              backgroundColor: "#B2FEFA",
             }}
           >
             Coming Soon ... Black Lightning 50/50{" "}
