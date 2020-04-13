@@ -1,5 +1,5 @@
 import React from "react"
-import { Layout, Header, Navigation, Content } from "react-mdl"
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl"
 
 import Main from "./Main"
 import { Link } from "react-router-dom"
@@ -31,6 +31,14 @@ class App extends React.Component {
               <Link to="/resume">Resume</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
+            <Drawer title="Title">
+              <Navigation>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+              </Navigation>
+            </Drawer>
           </Header>
           <Content>
             <div className="page-content" />
