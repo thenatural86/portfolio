@@ -27,13 +27,11 @@
 .banner-text {
   display: flex;
   align-items: center;
-  padding-right: 6em;
-
+  align-content: center;
+  border: 2px solid blueviolet;
 }
 
-.banner-text h1,
-h3,
-h4 {
+.banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   /* color: rgb(0, 255, 242); */
