@@ -31,15 +31,15 @@ class App extends React.Component {
               <Link to="/resume">Resume</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
-            <Drawer title="Title">
-              <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-              </Navigation>
-            </Drawer>
           </Header>
+          <Drawer title="Title">
+            <Navigation>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+            </Navigation>
+          </Drawer>
           <Content>
             <div className="page-content" />
             <Main />
