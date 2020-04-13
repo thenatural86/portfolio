@@ -1,11 +1,13 @@
 import React from "react"
 import { Grid, Cell, Card, CardTitle, CardText, CardActions } from "react-mdl"
+import Modal from "./Modal"
 
 class Projects extends React.Component {
   renderCards = () => {
     return (
       <div className="projects-grid">
         <Card
+          className="card"
           shadow={5}
           style={{
             minWidth: "450",
@@ -14,6 +16,7 @@ class Projects extends React.Component {
           }}
         >
           <CardText
+            onClick={this.onClick}
             className="card-text"
             style={{
               fontWeight: "bold",
@@ -25,6 +28,7 @@ class Projects extends React.Component {
             My Stream
           </CardText>
           <CardTitle
+            onClick={this.onClick}
             className="card-body"
             style={{
               margin: "10px",
@@ -57,10 +61,12 @@ class Projects extends React.Component {
         </Card>
 
         <Card
+          className="card"
           shadow={5}
           style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
         >
           <CardText
+            onClick={this.onClick}
             className="card-text"
             style={{
               fontWeight: "bold",
@@ -72,6 +78,7 @@ class Projects extends React.Component {
             MarveLess
           </CardText>
           <CardTitle
+            onClick={this.onClick}
             className="card-body"
             style={{
               margin: "10px",
@@ -104,10 +111,12 @@ class Projects extends React.Component {
         </Card>
 
         <Card
+          className="card"
           shadow={5}
           style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
         >
           <CardText
+            onClick={this.onClick}
             className="card-text"
             style={{
               fontWeight: "bold",
@@ -119,6 +128,7 @@ class Projects extends React.Component {
             PotterLess
           </CardText>
           <CardTitle
+            onClick={this.onClick}
             className="card-body"
             style={{
               margin: "10px",
@@ -151,10 +161,12 @@ class Projects extends React.Component {
         </Card>
 
         <Card
+          className="card"
           shadow={5}
           style={{ minWidth: "450", margin: "auto", borderRadius: "15px" }}
         >
           <CardText
+            onClick={this.onClick}
             className="card-text"
             style={{
               fontWeight: "bold",
@@ -166,6 +178,7 @@ class Projects extends React.Component {
             Coming Soon ... Black Lightning 50/50{" "}
           </CardText>
           <CardTitle
+            onClick={this.onClick}
             className="card-body"
             style={{
               margin: "10px",
@@ -200,12 +213,20 @@ class Projects extends React.Component {
     )
   }
 
+  onClick = () => {
+    return (
+      <div className="modal">
+        <Modal />
+      </div>
+    )
+  }
+
   render() {
     return (
       <div className="content-grid">
         <Grid className="project-grid-style">
           <Cell col={8}>
-            <div className="content">{this.renderCards()}</div>
+            <div className="content">{this.renderCards()} </div>
           </Cell>
         </Grid>
       </div>

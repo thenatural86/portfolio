@@ -32,13 +32,6 @@ class App extends React.Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="philipsmalls.com">
-            <Navigation>
-              <Link to="/projects">Projects</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/contact">Contact</Link>
-            </Navigation>
-          </Drawer>
           <Content>
             <div className="page-content" />
             <Main />
