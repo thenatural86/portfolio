@@ -5,7 +5,7 @@ class LandingPage extends Component {
   render() {
     return (
       <Grid className="landing-grid">
-        <Cell style={{}} className="banner-text" col={12}>
+        <Cell className="banner-text" col={12}>
           <div>
             <h1>Welcome!</h1>
             <h3>My name is Philip and I'm a</h3>

@@ -1,12 +1,11 @@
 /* header css */
 .header-color {
-  background: #B2FEFA;
+  background: #b2fefa;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+  background: -webkit-linear-gradient(to right, #0ed2f7, #b2fefa);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+  background: linear-gradient(to right, #0ed2f7, #b2fefa);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 /* landing page css */
@@ -34,7 +33,6 @@
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  /* color: rgb(0, 255, 242); */
 }
 
 .banner-text hr {
@@ -44,7 +42,6 @@
 }
 
 .banner-text p {
-  /* color: white; */
   font-size: 20px;
   padding: 1em;
 }
@@ -126,15 +123,14 @@
   flex-flow: wrap;
   justify-content: space-around;
   background-image: url(./images/clean-textile.png);
-
 }
 
 .card-text {
-  background: #B2FEFA;
+  background: #b2fefa;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+  background: -webkit-linear-gradient(to right, #0ed2f7, #b2fefa);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+  background: linear-gradient(to right, #0ed2f7, #b2fefa);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -144,14 +140,12 @@
 
 .card-body {
   height: 176px;
-
 }
 
 .modal {
   height: 300px;
   background-color: blue;
 }
-
 
 /* contact page css */
 .contact-body {
@@ -177,19 +171,14 @@
   background-image: url(./images/clean-textile.png);
 }
 
-.contact-grid h2 {
-  /* font-family: "Anton", sans-serif; */
-}
-
 .contact-grid p {
-  /* font-family: "Oxygen", sans-serif; */
   font-weight: bold;
 }
 
 .contact-grid hr {
   border-top: 5px dotted black;
   width: 50%;
-  margin: auto
+  margin: auto;
 }
 
 .contact-grid i {
