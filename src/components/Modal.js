@@ -14,14 +14,8 @@ function Modal(props) {
           </div>
           <div className="modalText">
             <h2>{props.modalCard.name}</h2>
-            <p>
-              Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
-              IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
-              IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem IpsumLorem IpsumLorem
-              IpsumLorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
-              IpsumLorem IpsumLorem Ipsum
-            </p>
-            {/* <button onClick={props.modal}>exit</button> */}
+            <p>{props.modalCard.description}</p>
+            <h6>Technologies:</h6> <p>{props.modalCard.specs}</p>
           </div>
         </div>
       </div>
