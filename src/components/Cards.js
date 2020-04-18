@@ -47,8 +47,8 @@ class Cards extends React.Component {
     })
   }
 
-  manageModal = () => {
-    console.log("here")
+  manageModal = (props) => {
+    console.log(props)
     this.setState({ modal: !this.state.modal })
   }
 
@@ -58,7 +58,7 @@ class Cards extends React.Component {
         <Grid className="project-grid-style">
           <Cell col={8}>
             <div className={`modalBackground modalShowing-${this.state.modal}`}>
-              Modal
+              Modally
             </div>
             <div className="content">{this.renderCards()}</div>
           </Cell>

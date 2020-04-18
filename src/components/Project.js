@@ -2,7 +2,7 @@ import React from "react"
 import { Card, CardTitle, CardText, CardActions } from "react-mdl"
 
 const Project = (props) => {
-  console.log(props)
+  // console.log(props)
   return (
     <Card
       className="card"
@@ -46,7 +46,7 @@ const Project = (props) => {
         >
           <i className="fab fa-github"></i>
         </a>
-        <button onClick={props.modal}>Description</button>
+        <button onClick={() => props.modal(props)}>Description</button>
         <a
           href={props.youtube}
           alt="youtube"
