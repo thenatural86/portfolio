@@ -146,7 +146,7 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.card:active {
+.card:hover {
   cursor: pointer;
 }
 
@@ -154,16 +154,7 @@
   height: 176px;
 }
 
-.modalBackground {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s ease-in-out;
-}
 
-.modalShowing-true {
-  opacity: 1;
-  pointer-events: showing;
-}
 
 /* contact page css */
 .contact-body {
@@ -212,8 +203,12 @@
 /* ********************** */
 .modal {
   text-align: center;
-  ;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
+
+
 
 .modal button:not(.exitButton) {
   padding: 13px, 35px;
@@ -222,6 +217,7 @@
   font-size: 18px;
   color: white;
   border: none;
+
 }
 
 .modalBackground {
@@ -245,7 +241,7 @@
   pointer-events: visible;
 }
 
-.modalInner {
+.modal-inner {
   background: #1e2939;
   width: 900px;
   max-width: calc(100% - 60px);
@@ -254,10 +250,13 @@
   flex-direction: row;
   color: white;
   text-align: left;
+  cursor: pointer;
 }
 
 .modalText {
   padding: 15px;
+
+
 }
 
 .modalText p {

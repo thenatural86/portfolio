@@ -1,8 +1,8 @@
 import React from "react"
 import { Card, CardTitle, CardText, CardActions } from "react-mdl"
 
-const Project = (props) => {
-  // console.log(props)
+const Project = ({ project, modal }) => {
+  // console.log(project)
   return (
     <Card
       className="card"
@@ -22,13 +22,14 @@ const Project = (props) => {
           justifyContent: "center",
         }}
       >
-        {props.name}
+        {project.name}
       </CardText>
       <CardTitle
+        onClick={() => modal(project)}
         className="card-body"
         style={{
           margin: "10px",
-          background: `url(${props.image}) center/ cover`,
+          background: `url(${project.image}) center/ cover`,
         }}
       ></CardTitle>
       <CardActions
@@ -39,16 +40,16 @@ const Project = (props) => {
         border
       >
         <a
-          href={props.github}
+          href={project.github}
           alt="github"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i>
         </a>
-        <button onClick={() => props.modal(props)}>Description</button>
+        <button onClick={() => modal(project)}>Description</button>
         <a
-          href={props.youtube}
+          href={project.youtube}
           alt="youtube"
           target="_blank"
           rel="noopener noreferrer"

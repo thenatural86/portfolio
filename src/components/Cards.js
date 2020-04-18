@@ -40,19 +40,25 @@ class Cards extends React.Component {
       },
     ],
     modal: false,
+    modalCard: {},
   }
 
   // function to toggle modal state on/off
-  toggleModalState = (props) => {
-    console.log(props)
+  toggleModalState = (project) => {
+    // console.log(project)
     this.setState({ modal: !this.state.modal })
+    this.setState({ modalCard: project })
   }
 
   // function to render individual cards
   renderCards = () => {
     return this.state.projects.map((project) => {
       return (
-        <Project key={project.id} {...project} modal={this.toggleModalState} />
+        <Project
+          key={project.id}
+          project={project}
+          modal={this.toggleModalState}
+        />
       )
     })
   }
@@ -63,7 +69,11 @@ class Cards extends React.Component {
         <Grid className="project-grid-style">
           <Cell col={8}>
             <div className={`modalBackground modalShowing-${this.state.modal}`}>
-              <Modal modal={this.toggleModalState} />
+              <Modal
+                modalCard={this.state.modalCard}
+                modalState={this.state.modal}
+                modal={this.toggleModalState}
+              />
             </div>
             <div className="content">{this.renderCards()}</div>
           </Cell>
