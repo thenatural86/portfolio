@@ -55,6 +55,49 @@
 }
 
 
+
+/* projects page css */
+.projects-grid {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  height: 50em;
+}
+
+.project-grid-style {
+  height: 50em;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  background-image: url(./images/clean-textile.png);
+  background-color: mintcream;
+}
+
+.content {
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%
+}
+
+.card-text {
+  background: #b2fefa;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ed2f7, #b2fefa);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ed2f7, #b2fefa);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-body {
+  height: 176px;
+}
+
 /* resume page css */
 .resume-grid {
   background-image: url("https://cdn-media-1.freecodecamp.org/images/1*zVDcaM6mqhi9m0LP_Sq4Ag.jpeg");
@@ -101,48 +144,6 @@
   text-align: center;
   border-radius: 15px;
 }
-
-/* projects page css */
-.projects-grid {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-around;
-  height: 50em;
-}
-
-.project-grid-style {
-  height: 50em;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-around;
-  background-image: url(./images/clean-textile.png);
-}
-
-.content {
-  /* background-color: blue; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  height: 100%
-}
-
-.card-text {
-  background: #b2fefa;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0ed2f7, #b2fefa);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0ed2f7, #b2fefa);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.card:hover {
-  cursor: pointer;
-}
-
-.card-body {
-  height: 176px;
-}
-
 
 
 /* contact page css */
