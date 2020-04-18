@@ -1,6 +1,7 @@
 import React from "react"
 import Project from "./Project"
 import { Grid, Cell } from "react-mdl"
+import Modal from "./Modal"
 
 class Cards extends React.Component {
   state = {
@@ -41,15 +42,19 @@ class Cards extends React.Component {
     modal: false,
   }
 
-  renderCards = () => {
-    return this.state.projects.map((project) => {
-      return <Project key={project.id} {...project} modal={this.manageModal} />
-    })
-  }
-
-  manageModal = (props) => {
+  // function to toggle modal state on/off
+  toggleModalState = (props) => {
     console.log(props)
     this.setState({ modal: !this.state.modal })
+  }
+
+  // function to render individual cards
+  renderCards = () => {
+    return this.state.projects.map((project) => {
+      return (
+        <Project key={project.id} {...project} modal={this.toggleModalState} />
+      )
+    })
   }
 
   render() {
@@ -58,7 +63,7 @@ class Cards extends React.Component {
         <Grid className="project-grid-style">
           <Cell col={8}>
             <div className={`modalBackground modalShowing-${this.state.modal}`}>
-              Modally
+              <Modal modal={this.toggleModalState} />
             </div>
             <div className="content">{this.renderCards()}</div>
           </Cell>
