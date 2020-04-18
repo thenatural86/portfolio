@@ -11,7 +11,7 @@ class LandingPage extends Component {
             <h3>My name is Philip and I'm a</h3>
             <h3>Web Developer</h3>
             <hr />
-            <h4>
+            <h4 style={{ color: "black" }}>
               React | Redux | JavaScript | Ruby on Rails | HTML/CSS | SQLite
             </h4>
           </div>

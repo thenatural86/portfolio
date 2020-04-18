@@ -10,7 +10,6 @@
 
 
 /* landing page css */
-
 .landing-grid {
   background-image: url("https://media.npr.org/assets/img/2020/03/13/gettyimages-667018224_wide-e69134a24ff79fd3a338ff83661815c6299e58bd-s800-c85.jpg");
   text-align: center;
@@ -55,17 +54,6 @@
   text-decoration: none;
 }
 
-.social-links {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links i {
-  font-size: 5em;
-  padding: 8px;
-}
 
 /* resume page css */
 .resume-grid {
