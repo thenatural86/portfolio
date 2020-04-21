@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.demo-big-content {
+  font-family: 'Raleway';
+}
+
+/* #root {
+  font-family: 'Raleway';
+} */
+
+
 /* header css */
 .header-color {
   background: #b2fefa;
@@ -30,24 +41,29 @@
   align-content: center;
   justify-content: center;
   color: #00fff2;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Raleway';
+  /* font-family: 'Karla', sans-serif; */
 
 }
 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
+  font-family: 'Raleway';
 }
 
 .banner-text hr {
   border-top: 5px dotted black;
   width: 50%;
   margin: auto;
+  /* font-family: 'Raleway'; */
+
 }
 
 .banner-text p {
   font-size: 20px;
   padding: 1em;
+  /* font-family: 'Raleway'; */
 }
 
 .banner-text a {
@@ -78,10 +94,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 100%
+  height: 100%;
+  /* font-family: 'Raleway'; */
+
 }
 
 .card-text {
+  font-family: 'Raleway';
+
   background: #b2fefa;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #0ed2f7, #b2fefa);
@@ -109,6 +129,7 @@
 .resume-col-bottom-left {
   color: white;
   flex-wrap: wrap;
+
 }
 
 .resume-col-bottom-left-header,

@@ -4,11 +4,11 @@ import { Grid, Cell } from "react-mdl"
 class Resume extends Component {
   render() {
     return (
-      <div>
+      <div style={{ fontFamily: "Raleway" }}>
         <Grid className="resume-grid">
           <Cell className="resume-col-bottom-left" col={6}>
             <div
-              style={{ marginBottom: "1em" }}
+              style={{ marginBottom: "1em", fontFamily: "Raleway" }}
               className="resume-col-bottom-left-header"
             >
               <h3>Tech Skills</h3>

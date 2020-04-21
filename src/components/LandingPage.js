@@ -22,7 +22,7 @@ class LandingPage extends Component {
             </h3>
 
             <hr />
-            <h4 style={{ color: "black" }}>
+            <h4 style={{ color: "black", fontFamily: "Raleway" }}>
               React | Redux | JavaScript | Ruby on Rails | HTML/CSS | SQLite
             </h4>
           </div>

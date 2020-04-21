@@ -4,7 +4,7 @@ import { Grid, Cell } from "react-mdl"
 class Contact extends Component {
   render() {
     return (
-      <div className="contact-body">
+      <div style={{ fontFamily: "Raleway" }} className="contact-body">
         <Grid className="contact-grid">
           <Cell col={12}>
             <h2>Contact Me</h2>
