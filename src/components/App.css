@@ -166,8 +166,9 @@
   height: 100%;
   justify-content: center;
   padding-top: 2em;
-  background-color: #fcfcfc;
   background-image: url(./images/clean-textile.png);
+  background-color: mintcream;
+
 }
 
 .contact-grid {
