@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
 .demo-big-content {
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 /* #root {
   font-family: 'Raleway';
 } */
-
 
 /* header css */
 .header-color {
@@ -18,7 +17,6 @@
   background: linear-gradient(to right, #0ed2f7, #b2fefa);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 /* landing page css */
 .landing-grid {
@@ -32,7 +30,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
 }
 
 .banner-text {
@@ -41,15 +38,14 @@
   align-content: center;
   justify-content: center;
   color: #00fff2;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   /* font-family: 'Karla', sans-serif; */
-
 }
 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 .banner-text hr {
@@ -57,7 +53,6 @@
   width: 50%;
   margin: auto;
   /* font-family: 'Raleway'; */
-
 }
 
 .banner-text p {
@@ -69,8 +64,6 @@
 .banner-text a {
   text-decoration: none;
 }
-
-
 
 /* projects page css */
 .projects-grid {
@@ -96,11 +89,10 @@
   justify-content: space-around;
   height: 100%;
   /* font-family: 'Raleway'; */
-
 }
 
 .card-text {
-  font-family: 'Raleway';
+  font-family: "Raleway";
 
   background: #b2fefa;
   /* fallback for old browsers */
@@ -130,7 +122,6 @@
 .resume-col-bottom-left {
   color: white;
   flex-wrap: wrap;
-
 }
 
 .resume-col-bottom-left-header,
@@ -166,7 +157,6 @@
   text-align: center;
   border-radius: 15px;
 }
-
 
 /* contact page css */
 .contact-body {
@@ -211,7 +201,6 @@
   height: 350px;
 }
 
-
 /* ********************** */
 .modal {
   text-align: center;
@@ -220,8 +209,6 @@
   height: 100%;
 }
 
-
-
 .modal button:not(.exitButton) {
   padding: 13px, 35px;
   background: #22c39f;
@@ -229,7 +216,6 @@
   font-size: 18px;
   color: white;
   border: none;
-
 }
 
 .modalBackground {
@@ -267,8 +253,6 @@
 
 .modalText {
   padding: 15px;
-
-
 }
 
 .modalText p {
