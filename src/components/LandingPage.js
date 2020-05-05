@@ -13,7 +13,7 @@ class LandingPage extends Component {
             <h3>
               <Typewriter
                 options={{
-                  strings: ["Web Developer", "Writer", "Nature Boy"],
+                  strings: ["Web Developer", "Problem Solver", "Nature Boy"],
                   autoStart: true,
                   loop: true,
                   delay: 50,
