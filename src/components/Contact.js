@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Grid, Cell } from "react-mdl"
+import us from "./images/us.jpg"
 
 class Contact extends Component {
   render() {
@@ -10,7 +11,7 @@ class Contact extends Component {
             <h2>Contact Me</h2>
             <img
               className="contact-image"
-              src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/92849555_10156672183300981_4992975803168849920_n.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=4i_UsFCwLcgAX-Mi2Lg&_nc_ht=scontent-lga3-1.xx&oh=5d7cc990ac7f6ed7044ceeb5ca61d98e&oe=5EB69FA7"
+              src={us}
               alt="me"
               style={{ borderRadius: "15px" }}
             />
